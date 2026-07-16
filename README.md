@@ -27,9 +27,7 @@ add to, you can.
 uvx --from envoy-server envoy --version
 ```
 
-The path to the actual Envoy binary can be found with `get_envoy_path`. Note, this will not be available
-on Windows or other unsupported Envoy platforms and looking up `envoy` on `PATH` is recommended when
-supporting such platforms.
+The path to the actual Envoy binary can be found with `get_envoy_path`.
 
 ```python
 import subprocess
